@@ -1,0 +1,22 @@
+{
+  "name": "krakenhub",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Andre Tran <andre.tran@rallyhealth.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/krakenteam/KrakenHub",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/_bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "^15.0.1"
+  }
+}
