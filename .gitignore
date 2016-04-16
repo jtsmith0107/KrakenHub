@@ -1,4 +1,4 @@
 
 node_modules/
 .tscache/
-./app/_bower_components/
+app/_bower_components/
