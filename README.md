@@ -10,3 +10,7 @@ Compile the typescript by running  `grunt ts`
 
 Run the server with `node app.js`
 
+# Testing
+
+To run tests run `grunt test`
+

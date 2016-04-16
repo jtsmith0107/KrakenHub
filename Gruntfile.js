@@ -19,9 +19,18 @@ module.exports = function(grunt) {
                 
                 options: {}
             }
+        },
+        karma: {
+            unit: {
+                configFile: 'test/karma.conf.js'
+            }
         }
     });
+    
     grunt.loadNpmTasks("grunt-ts");
     grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks('grunt-wiredep');
+    grunt.loadNpmTasks('grunt-karma');
+    
+    grunt.task.registerTask('test', ['karma:unit']);
 };
