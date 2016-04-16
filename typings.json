@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "debug": "registry:npm/debug#2.0.0+20160211003958"
+  },
+  "ambientDependencies": {
+    "express": "registry:dt/express#4.0.0+20160317120654"
+  }
+}
