@@ -56,5 +56,11 @@ app.use(function(err: any, req: Request, res: Response, next: Function) {
   });
 });
 
+const server = app.listen(8000, "localhost", () => { // 3
+ 
+   const {address, port} = server.address(); // 4
+   console.log('Listening on http://localhost:' + port);
+});
+
 
 module.exports = app;
