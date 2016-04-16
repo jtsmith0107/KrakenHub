@@ -2,4 +2,7 @@
 
 This is our initial repo!
 
-We like turtles.
+Compile the typescript by running  `grunt ts`
+
+Run the server with `node app.js`
+
