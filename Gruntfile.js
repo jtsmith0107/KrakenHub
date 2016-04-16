@@ -10,8 +10,18 @@ module.exports = function(grunt) {
         },
         clean: {
             all: ['**/*.js', '**/*.js.map', '!node_modules/**', '!Gruntfile.js', '!bin/**', 'test/**/*.js', 'test/**/*.js.map']
+        },
+	    wiredep: {
+            task: {
+                src: [
+                    'app/web/index.html'
+                ],
+                
+                options: {}
+            }
         }
     });
     grunt.loadNpmTasks("grunt-ts");
     grunt.loadNpmTasks('grunt-contrib-clean');
+    grunt.loadNpmTasks('grunt-wiredep');
 };
